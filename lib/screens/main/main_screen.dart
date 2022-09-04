@@ -13,11 +13,16 @@ class MainScreen extends StatelessWidget {
       key: context.read<MenuController>().scaffoldKey,
       drawer: SideMenu(),
       body: SafeArea(
-        child: Row(
+        child:
+        // Container(
+        //   child: Text("this is main screen"),
+        // )
+        Row(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             // We want this side menu only for large screen
             if (Responsive.isDesktop(context))
+            // if (Responsive.isDesktop(context))
               Expanded(
                 // default flex = 1
                 // and it takes 1/6 part of the screen

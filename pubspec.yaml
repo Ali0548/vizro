@@ -30,7 +30,10 @@ dependencies:
 
   google_fonts: ^2.1.0
   flutter_svg: ^0.22.0
-  fl_chart: ^0.36.1
+  font_awesome_flutter: ^10.1.0
+  get: ^4.6.5
+  fl_chart:
+#  fl_chart: ^0.36.1
   provider: ^5.0.0
   data_table_2: ^2.0.3
 
